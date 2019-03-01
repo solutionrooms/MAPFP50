@@ -1,2 +1,2 @@
 # MAPFP50
-MAP FP50 Project
+MAP Model Conversion Project
