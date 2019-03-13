@@ -1,5 +1,6 @@
 import pandas as pd
 import itertools
+
 def keep(DataFrame, keep_these):
     drop_these = list(set(list(DataFrame)) - set(keep_these))
     return DataFrame.drop(drop_these, axis=1)
@@ -13,7 +14,6 @@ class ModelPrepare():
     def __init__(self):
         self.step1_variables = None
         self.variable_details = None
-
         self.step1_models = None
         self.output = {'success': False, 'message': ''}
         
